@@ -1,0 +1,26 @@
+{
+  "name": "calculator",
+  "displayName": "CalcEPET13",
+  "version": "1.0.0",
+  "description": "Calculadora simplificada.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "EPET 13 ISFD 2",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "cordova-android": "^13.0.0",
+    "cordova-browser": "^7.0.0",
+    "cordova-ios": "^7.1.1"
+  },
+  "cordova": {
+    "platforms": [
+      "ios",
+      "browser"
+    ]
+  }
+}
